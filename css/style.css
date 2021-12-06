@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inline{
+    display: inline-block;
+}
+.d-none{
+    display: none;
+}
+/* main window */
+.main__window{
+    transition: all 1s;
+    position: absolute;
+    background-color: rgb(252, 138, 138);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.m_title{
+    padding-top: 50px;
+}
+h2{
+    margin-top: 50px;
+    color: red;
+}
+h2 div{
+    color: black;
+}
+.m_achive{
+    margin-top: 50px;
+}
+
+.m_start{
+    margin-top: 50px;
+    width: 100px;
+    border:none;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 50px;
+}
+
+.achive__window{
+    display: none;
+    position: absolute;
+    margin-left: 40%;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15%;
+}
+
+
+/* game */
+
+.information{
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 30px;
+    float: left;
+}
+
+.background{
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    width: 1100px;
+    height: 600px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid black;
+    
+}
+
+.bac-img1{
+    background-image: url("../img/pustina.jpg");
+    width: 1100px;
+    height: 600px;
+    position: absolute;
+    background-repeat: round;
+}
+
+.bac-img2{
+    background-image: url("../img/pustina.jpg");
+    width: 1100px;
+    height: 600px;
+    background-repeat: round;
+    top: -600px;
+    position: absolute;
+}
+
+.car-m{
+    background-image: url("../img/carm.png");
+    width: 70px;
+    height: 120px;
+    background-repeat: round;
+    position: absolute;
+    top: 400px;
+    background-color: red;
+
+    left: 770px;
+}
+.car-1{
+    background-image: url("../img/car5.png");
+    width: 120px;
+    height: 200px;
+    background-repeat: round;
+    position: absolute;
+    top: -200px;
+    left: 600px;
+    background-color: red;
+
+}
+.car-2{
+    background-image: url("../img/car.png");
+    width: 80px;
+    transform: rotate(180deg);
+    height: 150px;
+    background-repeat: round;
+    position: absolute;
+    top: -150px;
+    left: 420px;
+    background-color: red;
+}
+
+.money{
+    left: 230px;
+    background-image: url("../img/money.png");
+    background-repeat: round;
+    position: absolute;
+    width: 70px;
+    height: 67px;
+}
